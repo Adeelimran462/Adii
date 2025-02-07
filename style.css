@@ -1,0 +1,955 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 150px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10%;
+}
+
+.button1{
+    padding: 5px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.button2{
+    padding: 5px;
+    background: #FBDB0D;
+    border: none;
+    width: 65px;
+    border-radius: 3px;
+    margin: 0 11px;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.button1:hover{
+    transform: scale(1.3);
+    background-color: #FBDB0D;
+    color: #fff;
+    border: none;
+}
+.button2:hover{
+    transform: scale(1.3);
+    color: #fff;
+}
+
+nav {
+    background: #FBDB0D;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav ul li{
+    display: block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 0 16px;
+    color: #000000;
+    display: inline-block;
+    align-items: center;
+    transition: all 0.3s ease;
+    display: flex;
+}
+
+nav ul li a:hover{
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    height: 70px;
+}
+
+.Banner{
+    position: relative;
+}
+.Banner-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 8%;
+
+}
+.banner-heading h1{
+    font-family: auto;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.banner-heading p{
+    font-size: 12px;
+    width: 445px;
+    color: #0F0D0A;
+    line-height: 18px;
+    margin-top: 10px;
+}
+
+.image-div img{
+    width: 3%;
+    position: absolute;
+    top: 3%;
+    right: 72%;
+}
+
+.banner-ad{
+    background: #FBDB0D;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.banner-detail h2{
+    text-align: center;
+    padding: 10px;
+    font-family: emoji;
+    font-size: 35px;
+}
+
+.drop-down-list{
+    background: #fff;
+    padding: 10px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+.btn-button button{
+    padding: 9px;
+    background: #FBDB0D;
+    border: none;
+    border-radius: 7px;
+    width: 65px;
+}
+
+.btn-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-button-div{
+    display: flex;
+    align-items: center;
+}
+.detail{
+    margin: 0 8px;
+}
+.gt span i{
+    margin: 0 14px;
+}
+.detail span{
+    font-size: 13px;
+    font-family: emoji;
+}
+.detail p{
+    font-size: 9px;
+    color: #858080;
+}
+
+.line{
+    border-left: 1px solid #1D1D1D;
+    width: 100px;
+    height: 40px;
+    margin: 0 16%;
+}
+
+.ad-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ad-sec button{
+    padding: 9px;
+    background: #FBDB0D;
+    border: none;
+    border-radius: 7px;
+    width: 95px;
+}
+
+.image-style{
+    
+    width: 100px;
+    position: absolute;
+    left: 20%;
+    top: 596px;
+}
+
+.image-style img{
+    width: 60px;
+}
+
+.button-div{
+    position: absolute;
+    right: 0;
+    top: 610px;
+    left: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.button-div h3{
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.button-div button{
+    padding: 10px;
+    width: 15%;
+    background: #000000;
+    color: #FBDB0D;
+    border: none;
+    border-radius: 5px;
+    margin: 0 2%;
+}
+
+.Ad-heading h1{
+    margin-top: 8%;
+    font-size: 40px;
+    font-family: auto;
+    padding: 10px 0;
+}
+
+.Ad-about{
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+.Ad-heading{
+    width: 100%;
+    text-align: justify;
+    margin: 0 7%;
+}
+
+.Ad-heading p{
+    color: #0F0D0A;
+    font-size: 12px;
+    width: 85%;
+    line-height: 18px;
+}
+
+.button-group-div {
+    background-color: #FBDB0D;
+    height: 145px;
+    margin-top: 5%;
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.innerC{
+    margin: 0 15%;
+}
+.ad-heading-div {
+    border-bottom: 3px solid white;
+    width: 100%;
+    padding-bottom: 15px;
+    font-size: 35px;
+    font-family: emoji;
+}
+
+
+
+.ad-heading-child{
+    color: #0F0D0A;
+    font-size: 13px;
+    padding: 10px 0;
+    font-family: sans-serif;
+}
+
+.banner1-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.container-fluid {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 7%;
+}
+
+.Buzz-Hub{
+    margin-top:  8%;
+}
+
+.image{
+    width: 350px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin: 0 9%;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: emoji;
+}
+
+.content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.icon-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.icon-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.icon-list li::before {
+    content: "⭐";
+    color: #ffd600;
+    margin-right: 10px;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffd600;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #e6b800;
+}
+
+.ad-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0 7%;
+}
+
+.ad-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.state-image {
+    width: 100px;
+}
+
+.state-image img{
+    width: 100%;
+}
+.stats {
+    display: flex;
+    gap: 15px;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    min-width: 160px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.stat-box.yellow {
+    background-color: #ffd600;
+}
+
+.stat-box.blue {
+    background-color: #4a90e2;
+}
+
+.stat-box h3 {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.stat-box p {
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+    color: #333;
+}
+
+.ad-div-image {
+    width: 350px;
+    position: relative;
+}
+
+.ad-div-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Optional: Styling for bees */
+.bee-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+
+.bee-icon.bee1 {
+    top: 46%;
+    left: -1px;
+    width: 20%;
+}
+
+.bee-icon.bee2 {
+    bottom: 50px;
+    right: -19px;
+    width: 20%;
+}
+
+/* Mock statistics card */
+.stats-card {
+    width: 320px;
+}
+
+.stats-card img{
+    width: 100%;
+}
+
+.stats-card h3 {
+    font-size: 16px;
+    margin: 0;
+    color: #333;
+}
+
+.stats-chart {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.stats-chart .line {
+    height: 5px;
+    background-color: #ddd;
+    flex: 1;
+    border-radius: 2.5px;
+}
+
+.stats-chart .bar {
+    width: 15px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.stats-chart .bar.yellow {
+    background-color: #ffd600;
+}
+
+.stats-chart .bar.blue {
+    background-color: #4a90e2;
+}
+
+.stats-chart .bar.green {
+    background-color: #3cba54;
+}
+
+.stats-chart .bar.black {
+    background-color: #333;
+}
+
+.Bh-heading{
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.Bh-heading h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.Bh-heading p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.benefit-item {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.benefit-item img {
+    width: 35%;
+    object-fit: cover;
+}
+
+.benefit-content {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.benefit-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.benefit-content h2 span {
+    color: #ffd600;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.benefit-content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.benefit-item img {
+    background-color: #ffd600;
+}
+
+.benefit-item:nth-child(even) img {
+    background-color: #4a90e2;
+}
+
+@media screen and (max-width: 768px) {
+    .benefits {
+        grid-template-columns: 1fr;
+    }
+}
+
+.BH-data {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 9%;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border: 2px solid #ffd600;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+}
+
+.card-icon {
+    background-color: #ffd600;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.card-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card-link {
+    font-size: 14px;
+    color: #ffd600;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background-color: #ffd600;
+    border: none;
+    color: #000;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card button:hover {
+    background-color: #e5c500;
+}
+
+.arrows {
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+#toggle ,header .logo label{
+    display: none;
+}
+
+.login-button-2{
+    display: none;
+}
+@media (max-width: 768px) {
+
+    nav ul li a{
+        margin:0 13px;
+    }
+    .Banner-div, .container-fluid , .ad-container{
+        flex-direction: column;
+    }
+
+    .banner-heading h1{
+        font-size: 45px;
+    }
+
+    .image-div img{
+        width: 5%;
+        position: absolute;
+        top: -2%;
+        right: 92%;
+    }
+
+    .banner-heading p{
+        width: 76%;
+        margin: 0 auto;text-align: center;
+    }
+
+    .banner-image img{
+        display: flex;
+        justify-content: center;
+        padding: 40px 10%;
+    }
+
+    .banner-ad{
+        width: 100%;
+    }
+
+    .line{
+        margin: 0;
+    }
+
+    .image-style{
+        top: 100%;
+        
+    }
+
+    .button-div{
+        top: 100%;
+        left: 28%;
+    }
+
+    .button-div button{
+        width: 25%;
+        margin: 11px 3%;
+    }
+
+    .Ad-about{
+        flex-direction: column;
+    }
+
+    .button-group-div{
+        display: flex;
+        align-items: center;
+        margin: 40px auto;
+        border-radius: 10px;
+        width: 85%;
+    }
+
+    .banner1-div{
+        margin: 0 16%;
+    }
+
+    .Ad-heading h1 , .content h2{
+        text-align: center;
+    }
+
+    .image , #Sd-hub{
+        display: none;
+    }
+
+    .cards{
+        justify-content: center;
+    }
+    .card{
+        margin: 10px;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    header:has(#toggle:checked) nav{
+        display: block;
+    }
+
+    header .logo label{
+        display: block;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    .login-button{
+        padding: 10px;
+    }
+    .logo img{
+        width: 50%;
+    }
+
+    header .logo ul{
+        display: block;
+        text-align: center;
+        background-color: #FBDB0D;
+        width: 270px;
+        border-radius: 7px;
+    }
+
+    header nav{
+        display: none;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    header{
+        padding: 10px;
+    }
+
+    header nav ul{
+        display: block;
+    }
+    header nav ul li a{
+        color: #fff;
+        justify-content: center;
+        padding: 10px;
+    }
+    .login-button{
+        display: none;
+    }
+
+    .login-button-2{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .login-button-2 .button1{
+        padding: 5px;
+        background: transparent;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+    }
+
+    .login-button-2 .button2{
+        padding: 5px;
+        background: #fff;
+        border: none;
+        width: 65px;
+        border-radius: 3px;
+        margin: 0 11px;
+        height: 30px;
+        color: #FBDB0D;
+    }
+
+    .banner-heading h1{
+        font-size: 30px;
+    }
+
+    .banner-heading p{
+        width: 100%;
+        text-align: justify;
+        font-size: 9px;
+    }
+
+    .banner-image img{
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .banner-detail h2{
+        font-size: 20px;
+    }
+
+    .btn-button{
+        flex-direction: column;
+    }
+
+    .ad-sec{
+        display: none;
+    }
+    .line,.bee-icon.bee2{
+        display: none;
+    }
+
+    .button-div{
+        left: 39%;
+    }
+    .button-div button{
+        width: 40%;
+        font-size: 11px;
+        
+    }
+    .button-div h3{
+        font-size: 14px;
+    }
+
+    .banner1-div{
+        flex-direction: column;
+    }
+
+    .button-group-div{
+        height: auto;
+        
+        flex-direction: column;
+    
+    }
+    .content h2 {
+        font-size: 23px;
+    }
+
+    .content p{
+        width: 100%;
+    font-size: 12px;
+    }
+
+    .icon-list li{
+        font-size: 15px;
+    }
+
+    .container-fluid{
+        width: 100%;
+        margin: 0;
+    }
+
+    .ad-div-image img{
+        width: 90%;
+    }
+    .cards{
+        margin: 0;
+    }
+    .stats{
+        flex-direction: column;
+    }
+
+    .stats-card img{
+        width: 78%;
+    margin: 0 auto;
+    }
+
+    .ad-content h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .stat-box.yellow{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ad-div-image{
+        width: 255px;
+    }
+    .stat-box.blue{
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .Bh-heading p{
+        font-size: 14px;
+    }
+
+    .Bh-heading h1{
+        font-size: 30px;
+    }
+}
+
+
